@@ -26,8 +26,8 @@ public class Iphone implements NavegadorInternet, ReprodutorMusical, AparelhoTel
     
     @Override
     public void escolherMusica(String musica) {
-        System.out.printf("tocando musica...(%s)\n",musica);
         this.musica=musica;
+        tocar();
     }
 
     @Override
